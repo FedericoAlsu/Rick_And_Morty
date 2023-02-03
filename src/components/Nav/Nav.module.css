@@ -1,0 +1,38 @@
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 2%;
+} */
+@font-face {
+    font-family: "rick_and_morty";
+    src: url("./../../assets/get_schwifty.ttf");
+}
+.container_nav a{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #00afc2;
+    text-shadow: #000000 0px 0px 5px;
+
+    }
+
+    
+.container_nav div{
+    display: flex;
+    justify-content: center;
+
+}
+.container_nav{
+    font-family: "rick_and_morty";
+}
+.containLetter {
+    text-align: center;
+}
+.containLetter img {
+    width: 30%;
+    cursor: pointer;
+}
+
